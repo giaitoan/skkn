@@ -37,7 +37,7 @@ export const SKKNForm: React.FC<Props> = ({ userInfo, onChange, onSubmit, isSubm
               value={userInfo.topic}
               onChange={handleChange}
               className="bg-gray-50 focus:bg-white focus:ring-teal-500 focus:border-teal-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md p-3 border transition-colors"
-              placeholder="VD: Một số biện pháp giúp học sinh lớp 5 học tốt môn Tiếng Việt..."
+              placeholder="VD: Một số biện pháp giúp học sinh lớp 12 học tốt môn Toán..."
             />
           </div>
         </div>
@@ -55,7 +55,7 @@ export const SKKNForm: React.FC<Props> = ({ userInfo, onChange, onSubmit, isSubm
                 value={userInfo.subject}
                 onChange={handleChange}
                 className="bg-gray-50 focus:bg-white focus:ring-teal-500 focus:border-teal-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md p-3 border transition-colors"
-                placeholder="VD: Toán, Ngữ Văn"
+                placeholder="VD: Toán học"
               />
             </div>
           </div>
@@ -72,7 +72,7 @@ export const SKKNForm: React.FC<Props> = ({ userInfo, onChange, onSubmit, isSubm
                 value={userInfo.grade}
                 onChange={handleChange}
                 className="bg-gray-50 focus:bg-white focus:ring-teal-500 focus:border-teal-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md p-3 border transition-colors"
-                placeholder="VD: Lớp 4, THCS"
+                placeholder="VD: Lớp 12, THPT"
               />
             </div>
           </div>
@@ -91,7 +91,7 @@ export const SKKNForm: React.FC<Props> = ({ userInfo, onChange, onSubmit, isSubm
                 value={userInfo.school}
                 onChange={handleChange}
                 className="bg-gray-50 focus:bg-white focus:ring-teal-500 focus:border-teal-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md p-3 border transition-colors"
-                placeholder="VD: Tiểu học Nguyễn Du"
+                placeholder="VD: THPT Sao Vàng"
               />
             </div>
           </div>
@@ -108,7 +108,7 @@ export const SKKNForm: React.FC<Props> = ({ userInfo, onChange, onSubmit, isSubm
                 value={userInfo.textbook}
                 onChange={handleChange}
                 className="bg-gray-50 focus:bg-white focus:ring-teal-500 focus:border-teal-500 block w-full pl-10 sm:text-sm border-gray-300 rounded-md p-3 border transition-colors"
-                placeholder="VD: Cánh Diều, KNTT"
+                placeholder="VD: Kết nối tri thức vào cuộc sống"
               />
             </div>
           </div>
